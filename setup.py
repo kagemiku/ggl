@@ -15,5 +15,6 @@ setup(
     keywords         = "google search text clipboard",
     packages         = find_packages(),
     install_requires = [],
+    entry_points     = { "console_scripts": ["ggl=ggl.ggl:main"] }
 )
 

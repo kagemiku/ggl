@@ -15,7 +15,7 @@ def search_by_google(text):
     url = "http://www.google.com/#q=" + urllib.parse.quote(text)
     webbrowser.open_new_tab(url)
 
-if __name__ == '__main__':
+def main():
     text = get_clipboard_text()
     search_by_google(text)
 

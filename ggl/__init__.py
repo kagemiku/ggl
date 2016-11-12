@@ -4,5 +4,5 @@
 import ggl
 
 __author__  = "kage"
-__version__ = "1.0.0"
+__version__ = "1.0.4"
 __license__ = "MIT"
