@@ -7,12 +7,12 @@ from ggl import __author__, __version__, __license__
 setup(
     name             = "ggl",
     version          = __version__,
-    description      = "Open default browser, and search for text stored in clipboard",
+    description      = "Open default browser, and search for text stored in clipboard or command line arguments",
     license          = __license__,
     author           = __author__,
     author_email     = "kagemiku@gmail.com",
     url              = "https://github.com/kagemiku/ggl",
-    keywords         = "google search text clipboard",
+    keywords         = "google search text clipboard commandline argument",
     packages         = find_packages(),
     install_requires = [],
     entry_points     = { "console_scripts": ["ggl=ggl.ggl:main"] }
