@@ -1,5 +1,5 @@
 # ggl
-Open default browser, and search for text stored in clipboard.
+Open default browser, and search for text stored in clipboard or command line arguments.
 
 # Requirements
 * Python 3.x
@@ -16,6 +16,14 @@ $ pip install ggl
 ```
 $ ggl
 ```
+
+**or**
+
+```
+$ ggl text you want to search
+```
+
+You need not to enclose text in quotations.
 
 # License
 MIT License
