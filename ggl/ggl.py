@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
 import tkinter
 import urllib.parse
 import webbrowser
@@ -16,6 +17,10 @@ def search_by_google(text):
     webbrowser.open_new_tab(url)
 
 def main():
-    text = get_clipboard_text()
+    if len(sys.argv) > 1:
+        text = " ".join(sys.argv[1:])
+    else:
+        text = get_clipboard_text()
+
     search_by_google(text)
 
